@@ -4,7 +4,10 @@
   "description": "default babel repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "node .",
+    "watch": "babel -w src/ -d dist/ --source-maps",
+    "build": "babel src/ -d dist/ --source-maps",
+    "server": "nodemon",
   },
   "author": "Abdulrhamn Ramadan",
   "license": "ISC",
