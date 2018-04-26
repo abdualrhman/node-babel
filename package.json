@@ -2,7 +2,7 @@
   "name": "babel",
   "version": "1.0.0",
   "description": "default babel repository",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node .",
     "watch": "babel -w src/ -d dist/ --source-maps",
